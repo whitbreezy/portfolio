@@ -1,5 +1,5 @@
 // Bringing in the required import from 'react-router-dom'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Navbar from './UI/Navbar';
 
 export default function customNav() {
@@ -7,18 +7,18 @@ export default function customNav() {
   return (
     <Navbar
         links={[
-            <Link key={1} className="nav-link text-dark" to="/">
+            <NavLink key={1} className="nav-link" to="/">
                 About Me
-            </Link>,
-            <Link key={2} className="nav-link text-dark" to="/contact">
+            </NavLink>,
+            <NavLink key={2} className="nav-link" to="/contact">
                 Contact
-            </Link>,
-            <Link key={3} className="nav-link text-dark" to="/projects">
+            </NavLink>,
+            <NavLink key={3} className="nav-link" to="/projects">
                 Projects
-            </Link>,
-            <Link key={4} className="nav-link text-dark" to="/resume">
+            </NavLink>,
+            <NavLink key={4} className="nav-link" to="/resume">
                 Resume
-            </Link>,
+            </NavLink>,
       ]}
     />
   );

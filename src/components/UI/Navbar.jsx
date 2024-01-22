@@ -2,9 +2,14 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+const styles = {
+    navStyle:{
+        background: '#ff967f',
+    }
+}
 export default function customNav({ links }) {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary p-3 mb-5">
+        <Navbar style={styles.navStyle}  expand="lg" className="p-3 mb-5">
             <Navbar.Brand>
                 <img
                     src="src/assets/wblogo.png"
@@ -16,7 +21,7 @@ export default function customNav({ links }) {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
+                <Nav id="topnav" className="me-auto">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         {/* map links in Nav component */}
                         {links.map((link) => link)}
