@@ -1,3 +1,4 @@
+//bring in react bootstrap components
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
@@ -6,7 +7,7 @@ export default function customNav({ links }) {
         <Navbar expand="lg" className="bg-body-tertiary p-3 mb-5">
             <Navbar.Brand>
                 <img
-                    src="../assets/wblogo.png"
+                    src="src/assets/wblogo.png"
                     width="30"
                     height="30"
                     className="d-inline-block align-top"
@@ -17,6 +18,7 @@ export default function customNav({ links }) {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        {/* map links in Nav component */}
                         {links.map((link) => link)}
                     </ul>
                 </Nav>
