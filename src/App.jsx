@@ -1,15 +1,15 @@
-// Bringing in the required import from 'react-router-dom'
+// Todo: Bring in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
-import Navbar from './components/UI/Navbar';
+import Nav from './components/Nav';
 
 function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-      <Navbar />
+      <Nav />
       <main className="mx-3">
         <Outlet />
       </main>
+      {/* Todo: Fill in the appropriate component so that the user will conditionally see the appropriate view based on the URL */}
     </>
   );
 }
