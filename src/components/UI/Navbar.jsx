@@ -2,19 +2,23 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+
+//custom style for navbar
 const styles = {
     navStyle:{
-        background: '#ff967f',
+        background: '#e29578',
+        width:'100%!important'
     }
 }
+
 export default function customNav({ links }) {
     return (
         <Navbar style={styles.navStyle}  expand="lg" className="p-3 mb-5">
             <Navbar.Brand>
                 <img
                     src="src/assets/wblogo.png"
-                    width="30"
-                    height="30"
+                    width="40"
+                    height="40"
                     className="d-inline-block align-top"
                     alt="custom logo"
                 />

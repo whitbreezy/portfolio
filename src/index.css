@@ -25,7 +25,7 @@ a {
 
 body {
   margin: 0;
-  display: flex;
+  display: block;
   background-color: #faf1e9;
   min-width: 320px;
   min-height: 100vh;
@@ -33,10 +33,22 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2.5em;
   line-height: 1.1;
+  margin-bottom: 40px;
 }
-
+#resume{
+  margin: 40px;
+}
+#btn-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: #083a5d!important;
+  color: #faf1e9;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -44,9 +56,10 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #ff967f;
+  background-color: #e29578;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 10px;
 }
 button:hover {
   border-color: #083a5d;
