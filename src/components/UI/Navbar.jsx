@@ -6,20 +6,20 @@ import Navbar from 'react-bootstrap/Navbar';
 //custom style for navbar
 const styles = {
     navStyle:{
-        background: '#e29578',
-        width:'100%!important'
+        background: '#606c38',
+        width:'100%!important',
     }
 }
 
 export default function customNav({ links }) {
     return (
-        <Navbar style={styles.navStyle}  expand="lg" className="p-3 mb-5">
+        <Navbar fixed='top' style={styles.navStyle}  expand="lg" className="p-3">
             <Navbar.Brand>
                 <img
                     src="src/assets/wblogo.png"
                     width="40"
                     height="40"
-                    className="d-inline-block align-top"
+                    className="d-inline-block align-top "
                     alt="custom logo"
                 />
             </Navbar.Brand>

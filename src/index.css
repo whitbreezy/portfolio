@@ -14,28 +14,34 @@
   -webkit-text-size-adjust: 100%;
 }
 
+
 a.active{
   font-weight: 700!important;
 }
 a {
   font-weight: 500;
-  color: #083a5d!important;
+  color: #fefae0!important;
   text-decoration: inherit;
 }
 
 body {
   margin: 0;
   display: block;
-  background-color: #faf1e9;
+  background-color: #fefae0;
   min-width: 320px;
   min-height: 100vh;
-  color: #083a5d;
+  color: #283618;
 }
+
 
 h1 {
   font-size: 2.5em;
   line-height: 1.1;
   margin-bottom: 40px;
+}
+.header{
+  background-image: url('./assets/leaves.jpg');
+  min-height: 400px;
 }
 #resume{
   margin: 40px;
@@ -46,7 +52,7 @@ h1 {
   flex-wrap: wrap;
 }
 .card{
-  background-color: #083a5d!important;
+  background-color: #283618!important;
   color: #faf1e9;
 }
 button {
@@ -56,7 +62,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #e29578;
+  background-color: #606c38;
   cursor: pointer;
   transition: border-color 0.25s;
   margin: 10px;
