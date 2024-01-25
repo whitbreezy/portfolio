@@ -33,7 +33,7 @@ export default function AboutPage() {
                         <p>
                             I was born and raised near Salt Lake, and graduated with my Bachelor's degree in Quantitative Analysis of Markets and Organizations
                             from the University of Utah in 2020. After I finished school, I got a job as a Scrum Product Owner and realized that I wanted to continue my career in the tech field. 
-                            I had taken digital design classes in high school and loved using the adobe squite to make art, so I decided to learn more about UX and fell in love with it. I obtained my 
+                            I had taken digital design classes in high school and loved using the adobe suite to make art, so I decided to learn more about UX and fell in love with it. I obtained my 
                             UX Certification through the Nielsen Norman Group and decided to continue my education and earn my UX Unicorn horn by taking taking a coding bootcamp.
                             Outside of work and school, I enjoy playing in the mountains, baking, photography, art, and spending time with my fiance and our dog, Willow.
                         </p>
