@@ -1,6 +1,7 @@
 //bring in react bootstrap components
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import brandImg from '../../assets/wblogo.png'
 
 
 //custom style for navbar
@@ -16,7 +17,7 @@ export default function customNav({ links }) {
         <Navbar fixed='top' style={styles.navStyle}  expand="lg" className="p-3">
             <Navbar.Brand>
                 <img
-                    src="src/assets/wblogo.png"
+                    src={brandImg}
                     width="40"
                     height="40"
                     className="d-inline-block align-top "
