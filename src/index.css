@@ -32,6 +32,9 @@ body {
   min-height: 100vh;
   color: #283618;
 }
+.error-text{
+  color: red;
+}
 
 
 h1 {
