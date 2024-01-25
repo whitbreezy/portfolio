@@ -4,7 +4,7 @@
 
 I created this portfolio to showcase some of my software development skills to potential employers. This portfolio features a react.js framework with bootstrap components and some custom styling.
 
-Live Application:
+Live Application: https://thriving-mochi-bdc6dd.netlify.app/
 
 
 ## Installation
@@ -13,7 +13,7 @@ This project can be cloned to your machine by visiting my github repo: https://g
 
 ## Usage
 
-Visit my live portfolio at the following URL: 
+Visit my live portfolio at the following URL: https://thriving-mochi-bdc6dd.netlify.app/
 
 Users can navigate through my portfolio using the nav at the top of each page. The About (home) page features some information about me, the Contact page contains a form where users can fill out information to contact me, the Projects page features 6 of my favorite projects, and the Resume page features some highlights from my resume and gives the user the option to view my full resume in Google Docs. Below are some screenshots of some pages within my portfolio.
 
