@@ -5,6 +5,7 @@ import noteTaker from './assets/note-taker.png'
 import JATE from './assets/JATE.png'
 import jsQuizImg from './assets/js-quiz.png'
 
+//create array of objects containing details for each project and their images
 const projects = [
     {
         id: '1',

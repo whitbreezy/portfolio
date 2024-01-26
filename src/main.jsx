@@ -11,6 +11,7 @@ import ContactPage from './pages/ContactPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ResumePage from './pages/ResumePage';
 
+//create react router that renders each page
 const router = createBrowserRouter([
   {
     path: '/',

@@ -25,6 +25,7 @@ export default function AboutPage() {
                     <Col sm={12} md={6} lg={4} className='mb-3'>
                     <img style={styles.selfPicStyle} src={selfPic} alt='self portrait'/>
                     </Col>
+                    {/* responsive bio section and pic*/}
                     <Col sm={12} md={6} lg={8}>
                         <p>
                             I'm a UX designer located in the Salt Lake City, Utah area. I'm currently 
@@ -43,6 +44,7 @@ export default function AboutPage() {
                         </p>
                     </Col>
                 </Row>
+                {/*cards for featured projects */}
                 <Row className='mb-3'>
                     <h3>
                         Featured Projects

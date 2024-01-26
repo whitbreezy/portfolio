@@ -1,6 +1,7 @@
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import { Col } from 'react-bootstrap';
+//custom styles for project image and card
 const styles = {
     projectImg:{
     width: '100%',
@@ -15,6 +16,7 @@ export default function ProjectCard({projects}){
     return(
         <div>
             <Row>
+                {/* map projects so that each project in the data gets its own card */}
             {projects.map((project) => (
                 <Col key={project.id} lg={4} md={6} sm={12}>
                     <Card className='p-3 mb-3' >

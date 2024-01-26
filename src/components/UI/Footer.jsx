@@ -1,3 +1,4 @@
+//custom footer styles
 const styles = {
     footerStyles:{
         minHeight: '100px',
@@ -9,6 +10,7 @@ const styles = {
         textDecoration: 'underline'
     }
 }
+//footer component with links to socials
 function Footer() {
     return (
         <footer style={styles.footerStyles} className="p-3 mt-5">

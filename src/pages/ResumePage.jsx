@@ -1,6 +1,7 @@
+//react bootstrap components
 import Row from 'react-bootstrap/Row';
 import { Container } from 'react-bootstrap';
-
+//custom styles
 const styles = {
     buttonStyle:{
         maxWidth: '50%'
@@ -13,6 +14,7 @@ const styles = {
         textAlign: 'center'
     }
 }
+
 export default function ResumePage() {
     return (
       <div>
