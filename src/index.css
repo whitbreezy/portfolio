@@ -18,6 +18,9 @@
 a.active{
   font-weight: 700!important;
 }
+a button{
+  color: #fefae0!important;
+}
 
 a {
   font-weight: 500;
@@ -55,7 +58,7 @@ h1 {
 
 .card{
   background-color: #283618!important;
-  color: #faf1e9;
+  color: #fefae0;
 }
 
 button {
