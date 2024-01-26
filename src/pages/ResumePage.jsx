@@ -28,7 +28,7 @@ export default function ResumePage() {
                 </a>
                 
             </Row>
-            <Row className='mb-3'>
+            <Row className='mb-1'>
                 <h2 className='mb-5'>
                     Education
                 </h2>
@@ -36,7 +36,7 @@ export default function ResumePage() {
                 <h3>
                     University of Utah
                 </h3>
-                <ul className='ms-5'>
+                <ul className='ms-3'>
                     <li className='mb-1'>
                         Continuing Education: Full Stack Coding Bootcamp (August 2023 - Present)
                     </li>
@@ -46,14 +46,14 @@ export default function ResumePage() {
                 </ul>
             </Row>
             <Row>
-                <h2 className='mb-5'>
+                <h2 className='mb-3'>
                     Employment
                 </h2>
                 
                 <h3>
                     SILAC Insurance Company
                 </h3>
-                <ul className='ms-5 mb-5'>
+                <ul className='ms-3 mb-5'>
                     <li className='mb-1'>
                         UX Designer, UXC (January 2022 - Present)
                     </li>
@@ -64,7 +64,7 @@ export default function ResumePage() {
                 <h3>
                     Needs Beyond Medicine & CanSurvive (2022 - Present)
                 </h3>
-                <ul className='ms-5'>
+                <ul className='ms-3'>
                     <li className='mb-1'>
                         Worked with CEO to move create new websites for Needs Beyond Medicine and CanSurvive in Webflow
                     </li>
