@@ -59,7 +59,7 @@ function ContactForm() {
           />
         </Row>
         <Row>
-          <label htmlFor="nameInput" className='form-label p-0'>Enter Email Address</label>
+          <label htmlFor="nameInput" className='form-label p-0'>Enter First & Last Name</label>
           <input
             className='form-control mb-3'
             id='nameInput'
