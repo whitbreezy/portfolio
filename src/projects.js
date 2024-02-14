@@ -11,7 +11,7 @@ const projects = [
     {
         id: '1',
         img: tahanan,
-        title: 'JavaScript Quiz Game',
+        title: 'Tahanan Candle Co.',
         url: 'https://tahanancandleco.onrender.com/',
         github: 'https://github.com/mjthurber/Tahanan_Candle'
     },
