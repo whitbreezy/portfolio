@@ -4,7 +4,7 @@ import weather from './assets/weather-dashboard.png'
 import noteTaker from './assets/note-taker.png'
 import JATE from './assets/JATE.png'
 import jsQuizImg from './assets/js-quiz.png'
-import tahanan from './assets/project-screenshot-tahanan'
+import tahanan from './assets/project-screenshot-tahanan.png'
 
 //create array of objects containing details for each project and their images
 const projects = [
